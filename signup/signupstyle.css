@@ -1,0 +1,41 @@
+.box-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.box-form{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+.container{
+    width: 300px;
+    padding: 8px;
+    margin: 10px;
+}
+.button-form{
+    background-color: rgba(0,0,0,.6);
+    border:1px solid transparent;
+    border-radius: 6px;
+    padding: 6px;
+    margin-left:10px;
+    margin-top: 10px;
+}
+.button-form:hover{
+    background-color: rgb(44, 44, 44);
+    color: aliceblue;
+}
+.message-form{
+    margin-bottom: 8px;
+    font-size: 2rem;
+}
+.profile-picture{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+   margin-right: 20px;
+  
+}
