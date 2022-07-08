@@ -1,38 +1,34 @@
+@font-face {
+    font-family: stenier;
+    src: url(fonts/Oswald-VariableFont_wght.ttf);
+}
 *{
     box-sizing: border-box;
 }
 header{
-    display: flex;
-    height: 80px;
+padding: 30px;
+ 
 }
 .image{
     height: 16px;
     width: 16px;
 }
 nav{
-    display: flex;
-}
-.topnav{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   display: flex;
+   justify-content: space-between;
 }
 .image-left
 {
-    padding-left: 16px;
-    display: flex;
-    align-items: center;
+    margin-left: 6px;
+  
 }
 .text-color{
-    color:red;
+    color:#f10707f6;
 }
 .text-one{
-    padding: 8px;
+    padding: 7px;
     margin-left: 10px;
-}
-.text-nav{
-    display: flex;
-   align-items: center;
+    font-family: stenier;
 }
 .text:hover{
     cursor: pointer;
@@ -40,9 +36,9 @@ border:1px solid gray;
 border-radius: 4px;
 }
 main{
-    width: 1340px;
+    width: 1341px;
     height: 2000px;
-background-color: rgb(34, 34, 34);
+background-color: rgb(0, 0, 0);
 }
 .image-one-main{
     display: flex;
@@ -58,9 +54,9 @@ background-color: rgb(34, 34, 34);
    height: 32px;
 }
 .border-one-main{
-width: 800px;
+    padding: 4px;
     display: flex;
-    border: 1px solid black;
+    border: 1px solid rgba(212, 210, 210, 0.123);
     border-radius: 5px;
     
 }
@@ -70,7 +66,36 @@ width: 800px;
     justify-content: center;
 }
 .messageborder-one-main{
-
+font-family: stenier;
     display: flex;
     align-items: center;
+}
+.box{
+    width: 150px;
+    height: 150px;   
+}
+.box-playlist{
+    display: flex;
+    justify-content: space-around;
+}
+.message-playlist{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    margin:0px 23px;
+    font-family: stenier;
+
+}
+.viewmore-box{
+   
+   color:black;
+   border: 1px solid black;
+   padding: 5px;
+}
+.viewmore-box:hover{
+    background-color: aliceblue;
+    
+}
+.message-margin{
+    margin-right: 10px;
 }
