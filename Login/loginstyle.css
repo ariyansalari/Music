@@ -1,0 +1,22 @@
+body{
+   height: 500px;
+   align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    padding:7px;
+    margin-top: 10px;
+}
+.signup-login{
+text-decoration: none;
+color: black;
+
+}
+.signup-login:hover{
+    color: blueviolet;
+}
